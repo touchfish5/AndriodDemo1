@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--        <item name="colorPrimary">#030f28</item>-->
+        <item name="android:screenOrientation">portrait</item>
+        <!--        主题颜色-->
+        <item name="colorPrimaryDark">#030f28</item>
+        <!--        应用内默认字体颜色字体-->
+        <item name="android:textColor">#383838</item>
+        <item name="android:navigationBarColor">@color/home_tab_background</item>
+    </style>
+
+    <style name="login_text_style">
+        <item name="android:textColor">@color/ceruleanThree1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+<!--    首页RadioButton的基础属性-->
+    <style name="radio_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">@color/sel_tab_title_color</item>
+    </style>
+</resources>
